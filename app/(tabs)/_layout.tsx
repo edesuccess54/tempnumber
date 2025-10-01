@@ -1,21 +1,21 @@
 import { Ionicons } from "@expo/vector-icons";
 import { Tabs } from 'expo-router';
-import React from 'react';
+
 
 const Tabslayout = () => {
-
   return (
     <Tabs
       screenOptions={{
         tabBarActiveTintColor: "blue",
+        headerShown: false,
       }}
     >
       <Tabs.Screen
-        name="index"
+        name="keyPads"
         options={{
-          title: "Home",
+          title: "Keypad",
           tabBarIcon: ({ color, size }) => (
-            <Ionicons name="home-outline" color={color} size={size} />
+            <Ionicons name="keypad" color={color} size={size} />
           ),
         }}
       />

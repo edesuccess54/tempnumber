@@ -33,7 +33,7 @@ const Tabslayout = () => {
       />
 
       <Tabs.Screen
-        name="account"
+        name="index"
         options={{
           title: "Account",
           tabBarIcon: ({ color, size }) => (

@@ -50,6 +50,7 @@ const LoginScreen = () => {
           <Link
             href="./(auth)/sign-up"
             className="text-text-highlight text-base"
+            push
           >
             Sign up
           </Link>
